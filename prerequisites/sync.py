@@ -1,8 +1,6 @@
 import time 
 
 st=time.time()
-print("\ntime taken",time.time()-st)
-st=time.time()
 
 def count():
     print("somekhskfhsfhlsjfthing",end=" ")
