@@ -12,9 +12,8 @@ async def main():
 def a(s):
     print(s)
 a(asyncio.run(count()))
-
-st=time.time()
-asyncio.run(main())
+# st=time.time()
+# asyncio.run(main())
 # print("\ntime taken",time.time()-st)
 # st=time.time()
 
